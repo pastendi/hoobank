@@ -4,3 +4,61 @@
 * {
   scroll-behavior: smooth;
 }
+.heading2 {
+  @apply font-semibold sm:text-[48px] text-[40px] text-white sm:leading-[76.8px] leading-[66.8px] w-full;
+}
+.paragraph {
+  @apply font-normal text-dimWhite text-[18px] leading-[30.8px];
+}
+
+.flexCenter {
+  @apply flex justify-center items-center;
+}
+.flexStart {
+  @apply flex justify-center items-start;
+}
+
+.section {
+  @apply flex lg:flex-row flex-col;
+}
+.sectionReverse {
+  @apply flex lg:flex-row flex-col-reverse;
+}
+
+.sectionImgReverse {
+  @apply flex-1 flexCenter lg:mr-10 mr-0 lg:mt-0 mt-10 relative;
+}
+.sectionImg {
+  @apply flex-1 flexCenter lg:ml-10 ml-0 lg:mt-0 mt-10 relative;
+}
+
+.sectionInfo {
+  @apply flex-1 flexStart flex-col;
+}
+.nav-link {
+  @apply font-normal cursor-pointer text-white;
+}
+.mobile-nav-link {
+  @apply p-6;
+}
+.bg-black-gradient {
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+.mobile-nav-animation {
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
