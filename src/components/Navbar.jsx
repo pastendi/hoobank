@@ -5,7 +5,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false)
   return (
     // big nav
-    <nav className='w-full p-6 flex md:max-w-3xl lg:max-w-6xl mx-auto justify-between items-center navbar'>
+    <nav className='w-full p-6 flex md:max-w-3xl lg:max-w-7xl mx-auto justify-between items-center navbar'>
       <img src={logo} alt='hoobank' className='w-[124px] h-[32px] ' />
       <ul className='list-none md:flex hidden md:space-x-8 lg:space-x-16 justify-end items-center'>
         {navLinks.map((nav, index) => {
