@@ -38,9 +38,7 @@
 .nav-link {
   @apply font-normal cursor-pointer text-white;
 }
-.mobile-nav-link {
-  @apply p-6;
-}
+
 .bg-black-gradient {
   background: linear-gradient(
     144.39deg,

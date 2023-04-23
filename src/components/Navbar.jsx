@@ -11,7 +11,7 @@ const Navbar = () => {
         {navLinks.map((nav, index) => {
           return (
             <li key={index}>
-              <a href='#' className='nav-link'>
+              <a href={`#${nav.title}`} className='nav-link'>
                 {nav.title}
               </a>
             </li>
@@ -34,7 +34,7 @@ const Navbar = () => {
             {navLinks.map((nav, index) => {
               return (
                 <li key={index}>
-                  <a href='#' className='nav-link'>
+                  <a href={`#${nav.title}`} className='nav-link'>
                     {nav.title}
                   </a>
                 </li>
