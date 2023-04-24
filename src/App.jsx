@@ -6,6 +6,7 @@ import Business from './components/Business'
 import Billing from './components/Billing'
 import CardDeal from './components/CardDeal'
 import Testimonials from './components/Testimonials'
+import Footer from './components/Footer'
 function App() {
   return (
     <div className='bg-primary w-full overflow-hidden'>
@@ -16,6 +17,7 @@ function App() {
       <Billing />
       <CardDeal />
       <Testimonials />
+      <Footer />
     </div>
   )
 }
