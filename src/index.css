@@ -26,10 +26,10 @@
 }
 
 .sectionImgReverse {
-  @apply flex-1 flexCenter lg:mr-10 mr-0 lg:mt-0 mt-10 relative;
+  @apply flex-1 flexCenter lg:mr-10 mr-0 lg:mt-0 mt-10;
 }
 .sectionImg {
-  @apply flex-1 flexCenter lg:ml-10 ml-0 lg:mt-0 mt-10 relative;
+  @apply flex-1 flexCenter lg:ml-10 ml-0 lg:mt-0 mt-10;
 }
 
 .sectionInfo {
@@ -95,13 +95,13 @@
 }
 
 .pink__gradient {
-  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
-  filter: blur(900px);
+  background: linear-gradient(90deg, #f4c4f3 30%, #fc67fa 100%);
+  filter: blur(750px);
 }
 
 .white__gradient {
-  background: rgba(255, 255, 255, 0.6);
-  filter: blur(750px);
+  background: rgba(255, 255, 255, 0.8);
+  filter: blur(450px);
 }
 .feature-card:hover {
   background: linear-gradient(
