@@ -3,7 +3,7 @@ import { card } from '../assests'
 import Button from './Button'
 const CardDeal = () => {
   return (
-    <div className='section container md:max-w-3xl lg:max-w-7xl mx-auto p-6'>
+    <div className='section container md:max-w-3xl lg:max-w-6xl mx-auto p-6'>
       <div className='sectionInfo'>
         <h2 className='heading2'>
           Find a better card deal <br className='md:block hidden' /> in few easy

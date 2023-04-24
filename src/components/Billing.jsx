@@ -4,7 +4,7 @@ const Billing = () => {
   return (
     <div
       id='product'
-      className='container md:max-w-3xl lg:max-w-7xl mx-auto p-6 sectionReverse'
+      className='container md:max-w-3xl lg:max-w-6xl mx-auto p-6 sectionReverse'
     >
       <div className='sectionImgReverse relative'>
         <img src={bill} alt='billing' className='w-full h-full z-50' />

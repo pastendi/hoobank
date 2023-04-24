@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div
       id='home'
-      className='w-full p-6  md:max-w-3xl lg:max-w-7xl mx-auto flex flex-col lg:flex-row'
+      className='w-full p-6  md:max-w-3xl lg:max-w-6xl mx-auto flex flex-col lg:flex-row'
     >
       {/* left side */}
       <div className='flex-1 flexStart flex-col lg:px-0'>

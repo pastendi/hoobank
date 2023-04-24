@@ -4,7 +4,7 @@ import Button from './Button'
 import FeatureCard from './FeatureCard'
 const Business = () => {
   return (
-    <div className='container md:max-w-3xl lg:max-w-7xl mx-auto section p-6'>
+    <div className='container md:max-w-3xl lg:max-w-6xl mx-auto section p-6'>
       <div className='section-info'>
         <h2 className='heading2'>
           You do the business, <br className='md:block hidden' /> we'll handle

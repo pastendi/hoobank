@@ -2,7 +2,7 @@ import React from 'react'
 import { stats } from '../constants'
 const Stats = () => {
   return (
-    <div className='w-full max-w-3xl mx-auto p-6 lg:max-w-7xl flex justify-center items-center flex-wrap flex-row md:mb-20 gap-4'>
+    <div className='w-full max-w-3xl mx-auto p-6 lg:max-w-6xl flex justify-center items-center flex-wrap flex-row md:mb-20 gap-4'>
       {stats.map((stat, index) => {
         return (
           <div
